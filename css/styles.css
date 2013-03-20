@@ -1,0 +1,643 @@
+/* Clear Elements
+------------------------------------------ */
+#wrapper .clearMarginRight {
+	margin-right: 0;
+}
+#wrapper .clearMarginBottom {
+	margin-bottom: 0;
+}
+#wrapper .paddingOffset {
+	padding-bottom: 3px;
+}
+#wrapper .clear {
+	clear: both;
+}
+
+/* Add Border at Last Box
+------------------------------------------ */
+.lastBox {
+	border-bottom: 1px solid #3c3c3c;
+}
+
+/* Float
+------------------------------------------ */
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+/* Body
+------------------------------------------ */
+body {
+	color: #7c7c7c;
+	background: #333333;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	line-height: 1.0;
+}	
+
+/* Headlines
+------------------------------------------ */
+h1, h2, h3, h4, h5, h6 {
+	color: #f5f5f5;
+	font-weight: normal;
+}
+h1, h2, h3 {
+	font-family: GeosansLight, Arial, sans-serif;
+}
+h1 {
+	font-size: 28px;
+	line-height: 34px;
+}
+h2 {
+	font-size: 26px;
+	line-height: 31px;
+	margin-bottom: 12px;
+}
+h3 {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 12px;
+}
+h4 {
+	font-size: 16px;
+	line-height: 19px;
+}
+h5 {
+	font-size: 14px;
+	line-height: 17px;
+}
+h6 {
+	font-size: 13px;
+	line-height: 17px;
+}
+
+/* Link
+------------------------------------------ */
+a {
+	color: #3399cc;
+	text-decoration: none;
+}
+a:hover {
+	color: #f5f5f5;
+}
+h1 a, h2 a {
+	color: #f5f5f5;
+}
+.importantLink {
+	display: block;
+	padding: 3px 10px;
+	background: #333333;
+}
+.importantLink:hover{
+	color: #202020;
+	background: #3399cc;
+	text-decoration: none;
+}
+
+/* Unordered List
+------------------------------------------ */
+ul li {
+	list-style: none;
+	padding: 5px 0 5px 17px;
+	background: url(../images/listsign.png) no-repeat;
+}
+
+/* Table
+------------------------------------------ */
+th {
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 17px;
+	color: #d3d3d3;
+	background: #3c3c3c;
+	padding: 5px 42px 5px 15px;
+}
+td {
+	font-size: 11px;
+	line-height: 17px;
+	border-top: 1px solid #3c3c3c;
+	padding: 5px 42px 5px 15px;
+}
+tr:hover {
+	background: #202020;
+}
+
+/* Blockquote
+------------------------------------------ */
+blockquote {
+	margin: 15px;
+	padding: 3px 5px;
+	padding-left: 12px;
+	font-style: italic;
+	line-height: 17px;
+	border-left: 5px solid #3c3c3c;
+}
+
+/* Form Elements
+------------------------------------------ */
+form ul li {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 12px;
+	background: none;
+}
+input, textarea {
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	padding: 5px;
+	color: #7c7c7c;
+	background: #202020;
+	border: 1px solid #3c3c3c;
+}
+input:focus, textarea:focus {
+	border: 1px solid #3399cc;
+}
+input.submit {
+	padding: 3px 5px;
+	color: #3399cc;
+	background: #333333;
+	border: none;
+}
+input.submit:hover {
+	color: #202020;
+	background: #3399cc;
+}
+
+/* Basic Box
+------------------------------------------ */
+.box {
+	padding: 15px;
+	margin-bottom: 15px;
+	background: #262626;
+}
+.box p, .box address {
+	margin: 10px 0;
+	line-height: 17px;
+}
+.box300 {
+	float: left;
+	width: 280px;
+	margin-right: 15px;
+}
+.box .box300 {
+	width: 285px;
+	margin-right: 30px;
+}
+
+/* Image and Image List
+------------------------------------------ */
+.imgLeft {
+	float: left;
+	margin-right: 10px;
+}
+.imgRight {
+	float: right;
+	margin-left: 10px;
+}
+.imgBorder {
+	padding: 4px;
+	border: 1px solid #3c3c3c;
+}
+.imgList li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+.imgList img {
+	padding: 0;
+	margin-right: 5px;
+}
+
+/* Navigation in Sidebar
+------------------------------------------ */
+.nav li {
+	padding: 0;
+	background: none;
+}
+.nav li a {
+	display: block;
+	font-size: 12px;
+	padding: 9px 9px 9px 17px;
+	color: #7c7c7c;
+	border-top: 1px solid #3c3c3c;
+	background: url(../images/navsign.png) no-repeat;
+}
+.nav li a:hover{
+	color: #3399cc;
+	text-decoration: none;
+}
+.nav li li {
+	padding-left: 10px;
+}
+.nav li li li {
+	padding-left: 20px;
+}
+
+/* Pagination
+------------------------------------------ */
+.pagination {
+	float: left;
+}
+.pagination ul li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-right: 10px;
+	background: none;
+}
+.pagination ul li a {
+	float: left;
+	display: block;
+	padding: 6px 8px;
+	color: #7c7c7c;
+	background: #262626;
+}
+.pagination ul li a.current {
+	color: #3399cc;
+	font-weight: bold;
+}
+.pagination ul li a:hover {
+	color: #3399cc;
+}
+
+/* Error in Contact Form
+------------------------------------------ */
+label.error {
+	color: red;
+	float: none;
+	padding-left: 10px;
+}
+
+/* Header
+------------------------------------------ */
+#headerWrapper {
+	padding: 15px 0;
+}
+#header {
+	width: 930px;
+	margin: 0 auto;
+	padding: 15px;
+	background: #262626;
+}
+
+/* Logo
+------------------------------------------ */
+#logo {
+	float: left;
+	width: 210px;
+	text-align: center;
+	margin-top: -3px;
+}
+
+/* Main Navigation at Top
+------------------------------------------ */
+.mainNav {
+	float: left;
+	width: 360px;
+}
+.mainNav ul li { 
+	list-style: none; 
+	padding: 0; 
+	margin: 0; 
+	float: left;
+	width: 120px;
+	z-index: 99; 
+	position: relative; 
+	background: none; 
+	font-size: 14px; 
+	line-height: 17px;
+}
+.mainNav ul li a { 
+	display: block; 
+	padding: 9px 0; 
+	color: #7c7c7c;
+	border-left: 1px solid #3c3c3c;
+	text-align: center;
+}
+.mainNav ul li a:hover { 
+	color: #f5f5f5;  
+	text-decoration: none; 
+}
+.mainNav ul li a.secondLevel {
+	padding-right: 10px;
+	background: url(../images/arrow.png) right top no-repeat;
+}
+.mainNav ul li a.secondLevel:hover {
+	background: url(../images/arrow.png) right bottom no-repeat;
+}
+.mainNav ul li a.secondLevel.current {
+	background: url(../images/arrow.png) right bottom no-repeat;
+}
+.mainNav ul li a.current {
+	color: #f5f5f5;  
+	background: none;
+}
+.mainNav ul li a.lastBox {
+	border-bottom: none;
+	border-right: 1px solid #3c3c3c;
+}
+.mainNav ul li ul { 
+	z-index: 99; 
+	visibility: hidden; 
+	position: absolute; 
+}
+.mainNav ul li ul li {
+	width: 178px;
+}
+.mainNav ul li ul li a { 
+	font-size: 12px; 
+	text-align: left;
+	padding: 7px 8px; 
+	margin: 0; 
+	width: 160px; 
+	color: #7c7c7c; 
+	background: #262626; 
+	border: 1px solid #333333; 
+	border-bottom: none; 
+}
+.mainNav ul li ul li a:hover { 
+	color: #f5f5f5; 
+	background: #202020; 
+}
+.mainNav ul li ul li a.lastBox { 
+	border-bottom: 1px solid #333333; 
+}
+.mainNav ul li ul li ul { 
+	top: 0; 
+	left: 178px;
+}
+.mainNav ul li:hover ul ul { 
+	visibility: hidden; 
+}
+.mainNav ul li:hover ul, .mainNav ul li ul li:hover ul { 
+	visibility: visible; 
+}
+
+/* Main
+------------------------------------------ */
+#mainWrapper {
+	padding-bottom: 15px;
+}
+#main {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Slogan
+------------------------------------------ */
+.slogan p {
+	font-size: 13px;
+}
+
+/* Portfolio Page
+------------------------------------------ */
+.folio h3 {
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
+.folioLeft {
+	float: left;
+	width: 645px;
+	margin-right: 15px;
+}
+.folioRight {
+	float: left;
+	width: 270px;
+	line-height: 17px;
+}
+.folioRight ul li {
+	padding: 6px;
+	padding-left: 0;
+	background: none;
+	border-top: 1px solid #3c3c3c;
+}
+
+/* Left Content
+------------------------------------------ */
+#leftContent {
+	float: left;
+	width: 630px;
+	margin-right: 15px;
+}
+#leftContent .box {
+	margin-bottom: 0;
+}
+#leftContent .pagination {
+	margin-top: 15px;
+}
+
+/* Blog and Single Blog Page
+------------------------------------------ */
+.blog .attr {
+	float: left;
+	width: 500px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.blog .commentnum {
+	float: right;
+	width: 100px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	text-align: right;
+}
+.blog blockquote p {
+	margin: 0;
+	margin-bottom: 4px;
+}
+.blog h2 {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #3c3c3c;
+}
+.blog h2 a:hover {
+	color: #3399cc;
+}
+.blog h3 {
+	font-size: 16px;
+	margin-bottom: -8px;
+}
+
+/* Related Posts
+------------------------------------------ */
+.related {
+	margin-top: -5px;
+}
+.related a {
+	color: #7c7c7c;
+	font-size: 12px;
+}
+.related a:hover {
+	color: #3399cc;
+}
+
+/* Comments
+------------------------------------------ */
+.commentsWrapper {
+	float: left;
+	width: 600px;
+}
+.comments {
+	float: left;
+	width: 590px;
+	padding: 5px;
+}
+.odd {
+	background: #2c2c2c;
+}
+.comments .left {
+	float: left;
+	width: 140px;
+	margin-right: 15px;
+	text-align: right;
+}
+.comments .right {
+	float: left;
+	width: 430px;
+}
+.comments .left img {
+	margin-left: 5px;
+}
+
+/* Leave a Reply
+------------------------------------------ */
+#commentForm ul li ul li{
+	margin: 5px 0;
+}
+.commentInput{
+	width: 245px;
+}
+.commentTextarea{
+	width: 390px;
+}
+
+/* Contact Form
+------------------------------------------ */
+#contactForm ul li ul li {
+	margin: 5px 0;
+}
+.contactInput {
+	width: 245px;
+}
+.contactTextarea {
+	width: 390px;
+}
+
+/* Project Page
+------------------------------------------ */
+.project h3 {
+	font-size: 16px;
+	margin-bottom: -8px;
+}
+
+/* Authors in Project Page
+------------------------------------------ */
+.authors {
+	float: left;
+	width: 600px;
+}
+.author {
+	float: left;
+	width: 285px;
+	margin-right: 30px;
+}
+.author h4 {
+	margin-bottom: -8px;
+}
+
+/* Testimonial
+------------------------------------------ */
+.testimonial blockquote {
+	border: none;
+	padding-left: 50px;
+	background: url(../images/quote.png) left -5px no-repeat;
+}
+
+/* Sidebar
+------------------------------------------ */
+#sidebar {
+	float: left;
+	width: 315px;
+}
+#sidebar .box {
+	width: 285px;
+}
+#sidebar .nav li {
+	width: 285px;
+}
+
+/* Search Form
+------------------------------------------ */
+.searchFieldset {
+	position: relative;
+	border: 1px solid #3c3c3c;
+	background: #202020;
+}
+.searchInput {
+	border: none;
+	width: 230px;
+	padding: 5px;
+}
+.searchInput:focus {
+	padding: 4px 5px;
+}
+.searchButtom {
+	position: absolute;
+	right: 2px;
+	width: 24px;
+	height: 24px;
+	border: none;
+	background: #202020 url(../images/search.png) 6px 6px no-repeat;
+}
+
+/* Contact Infomation
+------------------------------------------ */
+.contactInfo {
+	float: left;
+	width: 280px;
+}
+
+/* News
+------------------------------------------ */
+.news .title {
+	color: #d3d3d3;
+	font-size: 12px;
+	font-weight: bold;
+}
+.news .date {
+	color: #636363;
+}
+
+/* Footer
+------------------------------------------ */
+#footerWrapper {
+	background: #333333;
+}
+#footer {
+	width: 930px;
+	margin: 0 auto;
+	padding: 15px;
+	background: #262626;
+	margin-bottom: 15px;
+}
+#footer .imgList li {
+	float: right;
+}
+#footer .imgList img {
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+}
+#footer p {
+	float: left;
+	margin-top: 3px;
+}
+#footer #copy {
+	float: left;
+	margin-top: 3px;
+	font-style: normal;
+}

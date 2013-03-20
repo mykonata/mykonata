@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+img, fieldset { 
+	border: 0; 
+}
+ol li { 
+	padding-left: 1.4em; 
+	list-style: decimal; 	
+}
+ul li { 
+	padding-left: 1.4em; 
+	list-style: disc;
+}
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0;
+	text-align: left;
+}
+q:before, q:after {
+	content:'';
+}
+a:focus {
+	outline: 0;
+}
